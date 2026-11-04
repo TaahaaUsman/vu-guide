@@ -1,7 +1,91 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VU Guide — The Big Shift</title>
-<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#060c18;color:#eef1f6;font-family:Georgia,serif}
-main{max-width:640px;padding:32px 16px}h1{color:#d8a65c;font-weight:600}a{color:#7cc4ff}li{margin:10px 0;font-family:system-ui,sans-serif}</style></head>
-<body><main><h1>VU Guide</h1><p style="font-family:system-ui,sans-serif;color:#97a3b9">The Big Shift ki videos ke notes: official links, research aur checklists.</p>
-<ul><li><a href="degree-abroad-usa-canada-mexico/">Kya VU ki degree bahar accepted hai? Part 1: USA, Canada, Mexico</a></li><li><a href="vu-midterm-prep/">VU Midterm Prep: Completed &ne; Ready (15-Minute Method, Green Count)</a></li></ul></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VU Guide | The Big Shift</title>
+<meta name="description" content="Notes for The Big Shift videos: official links, research and checklists for Virtual University of Pakistan students.">
+<link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Geist';src:url('assets/fonts/Geist-Variable.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Cormorant Garamond';src:url('assets/fonts/CormorantGaramond-500.ttf') format('truetype');font-weight:500;font-display:swap}
+@font-face{font-family:'Cormorant Garamond';src:url('assets/fonts/CormorantGaramond-500-italic.ttf') format('truetype');font-weight:500;font-style:italic;font-display:swap}
+
+:root{
+  --bg:#060c18;--panel:#0a1324;--line:#1c2842;
+  --text:#eef1f6;--muted:#97a3b9;--gold:#d8a65c;
+  --serif:'Cormorant Garamond','Times New Roman',serif;
+  --sans:'Geist',ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(900px 420px at 50% -80px,rgba(216,166,92,.10),transparent 70%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+
+header{padding:72px 0 44px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.brand::before{content:"";width:28px;height:2px;border-radius:2px;background:var(--gold)}
+h1{margin:22px 0 0;font-family:var(--serif);font-weight:500;font-size:clamp(46px,9vw,68px);line-height:1;letter-spacing:-.01em}
+.lead{margin:20px 0 0;max-width:34em;color:var(--muted);font-size:17px}
+
+.label{margin:0 0 14px;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+.list{display:grid;gap:14px;padding-bottom:72px}
+.card{display:flex;align-items:center;gap:20px;padding:22px 24px;border:1px solid var(--line);border-radius:16px;background:var(--panel);transition:border-color .2s,transform .2s}
+.card:hover,.card:focus-visible{border-color:rgba(216,166,92,.6);transform:translateY(-2px);outline:none}
+.ep{flex:none;width:56px;text-align:center;font-family:var(--serif);font-size:34px;line-height:1;color:var(--gold)}
+.ep small{display:block;margin-bottom:6px;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.body{flex:1;min-width:0}
+.title{margin:0;font-size:18px;font-weight:600;line-height:1.35}
+.desc{margin:4px 0 0;color:var(--muted);font-size:15px}
+.arrow{flex:none;color:var(--gold);font-size:22px;transition:transform .2s}
+.card:hover .arrow{transform:translateX(4px)}
+
+footer{border-top:1px solid var(--line);padding:28px 0 48px;color:var(--muted);font-size:13px}
+
+@media (max-width:480px){
+  header{padding:48px 0 32px}
+  .card{padding:18px 16px;gap:14px}
+  .ep{width:52px;font-size:28px}
+  .ep small{letter-spacing:.1em}
+  .arrow{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">The Big Shift</div>
+    <h1>VU Guide</h1>
+    <p class="lead">Notes for The Big Shift videos: official links, research and checklists for Virtual University students.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="label">Episodes</p>
+  <div class="list">
+    <a class="card" href="vu-midterm-prep/">
+      <div class="ep"><small>Episode</small>07</div>
+      <div class="body">
+        <h2 class="title">VU Midterm Prep: Completed &ne; Ready</h2>
+        <p class="desc">The 15-Minute Method, 5 AI prompts and the Green Count.</p>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    <a class="card" href="degree-abroad-usa-canada-mexico/">
+      <div class="ep"><small>Episode</small>06</div>
+      <div class="body">
+        <h2 class="title">Is Your VU Degree Accepted Abroad?</h2>
+        <p class="desc">Part 1: USA, Canada and Mexico.</p>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">An independent student project. Not affiliated with the Virtual University of Pakistan.</div>
+</footer>
+</body>
+</html>
